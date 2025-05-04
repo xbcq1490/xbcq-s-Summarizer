@@ -219,9 +219,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 accumulatedMarkdown += request.chunk;
                 try {
                     const dirtyHtml = marked.parse(accumulatedMarkdown);
-                    // Optional: Add DOMPurify sanitization here
-                    // const cleanHtml = DOMPurify.sanitize(dirtyHtml);
-                    // summaryDiv.innerHTML = cleanHtml;
                     summaryDiv.innerHTML = dirtyHtml;
 
                     // Force Smooth Scroll Logic
