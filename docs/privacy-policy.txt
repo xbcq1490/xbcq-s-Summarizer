@@ -1,0 +1,49 @@
+Privacy Policy for xbcq's Summarizer
+
+Last Updated: May 4, 2025
+
+Thank you for using xbcq's Summarizer (the "Extension"). This Privacy Policy explains how information is collected, used, and disclosed by the Extension.
+
+1. Information We Collect
+
+The Extension needs access to certain information to function:
+
+Google Gemini API Key: To interact with the Google Gemini service for summarization, the Extension requires you to provide your personal Google Gemini API key.
+Webpage Content: When you activate the Extension on a webpage, the text content of that active webpage is accessed by the Extension.
+2. How We Use Information
+
+The information collected is used solely for the core functionality of the Extension:
+
+Google Gemini API Key: Your API key is stored locally on your device using the browser's secure storage (storage.local API). It is only used to authenticate requests sent directly from your browser to the Google Gemini API when you request a summary. Your API key is NOT transmitted to the developer or any third party other than Google for the purpose of API authentication.
+Webpage Content: The text content of the active webpage is sent, along with your API key, directly from your browser to the Google Gemini API via the Extension's background script to generate the summary. This webpage content is NOT stored, collected, or transmitted by the developer.
+3. How We Store Information
+
+Google Gemini API Key: Your API key is stored using the browser's storage.local mechanism. This means it is stored on your computer within the browser's profile specific to this Extension. It is not synced across devices unless you have browser sync enabled for extension storage (which is generally not the default). You can clear this stored key via browser settings or if the Extension detects an invalid key.
+Webpage Content: Webpage content is processed in memory only while generating the summary request and is not stored by the Extension.
+Summaries: Generated summaries are displayed within the Extension's popup but are not stored persistently by the Extension after the popup is closed.
+4. Third-Party Services (Google Gemini API)
+
+To provide the summarization feature, the Extension sends your API key and the webpage content directly to Google's Gemini API servers. Your use of the Google Gemini API is subject to Google's own terms of service and privacy policies. The developer of this Extension is not responsible for Google's data handling practices. You can review Google's policies here:
+
+Google AI Studio and Gemini API Terms: https://ai.google.dev/gemini-api/terms
+Google Privacy Policy: https://policies.google.com/privacy
+5. Data Security
+
+We use the standard browser storage.local API designed for storing sensitive extension data locally. However, no method of electronic storage is 100% secure. While we strive to protect your API key, we cannot guarantee its absolute security. You are responsible for the security of your own Google account and API key.
+
+6. Children's Privacy
+
+The Extension is not intended for use by children under the age of 13 (or the relevant age of digital consent in your jurisdiction). We do not knowingly collect any personal information from children.
+
+7. Changes to This Privacy Policy
+
+We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy within the Extension listing or providing an update notification. You are advised to review this Privacy Policy periodically for any changes.   
+
+8. Consent
+
+By using the Extension, you consent to the collection, use, and storage of your information as described in this Privacy Policy. Specifically, you consent to storing your API key locally and sending your API key and webpage content to Google's Gemini API for summarization purposes when you initiate the action.
+
+9. Contact Us
+
+If you have any questions about this Privacy Policy, please contact us at:
+xbcq.mail@icloud.com
