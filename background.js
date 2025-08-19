@@ -1,6 +1,6 @@
 // background.js - Firefox Version using browser.* API
 
-const GEMINI_MODEL = 'gemini-1.5-flash-8b';
+const GEMINI_MODEL = 'gemini-2.5-flash-lite';
 
 // Use browser.runtime.onMessage
 browser.runtime.onMessage.addListener((request, sender, sendResponse) => {
