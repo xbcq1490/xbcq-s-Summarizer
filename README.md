@@ -77,4 +77,4 @@ Contributions are welcome! If you find a bug or have a feature request, please o
 
 If you encounter issues or have questions, please open an issue on the GitHub repository: [Issues](https://github.com/xbcq1490/xbcq-s-Summarizer/issues)
 
-You can also contact the developer at: xbcq.mail@icloud.com
+You can also contact me at: mail@xbcq.lol
